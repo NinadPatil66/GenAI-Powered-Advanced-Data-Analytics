@@ -17,9 +17,9 @@
 In financial services, incomplete or inconsistent data can make it difficult to build reliable predictive models. When real-world data is limited, sensitive, or incomplete, synthetic data generation can help fill gaps, simulate scenarios, and improve dataset quality while maintaining privacy and compliance. Synthetic data is created using statistical models or AI-driven techniques to supplement missing values or expand datasets for testing. Traditional statistical simulation techniques such as Monte Carlo simulations, bootstrapping, and probabilistic modeling are often preferred due to their explainability, reproducibility, and ability to align with industry regulations. It must be strictly validated to ensure it accurately reflects real-world trends and does not introduce bias.
 
 GenAI-generated synthetic data should be:
-✔ Validated against real-world distributions to ensure accuracy.
-✔ Cross-checked with statistical models to prevent introducing artificial patterns or biases.
-✔ Used as a supplementary tool, not a primary data source, especially in regulatory environments.
+- Validated against real-world distributions to ensure accuracy.
+- Cross-checked with statistical models to prevent introducing artificial patterns or biases.
+- Used as a supplementary tool, not a primary data source, especially in regulatory environments.
 
 Example GenAI prompt: “Generate synthetic payment history data for customers with missing records while ensuring that distributions align with historical patterns observed in the dataset (e.g., standard deviations, typical payment behaviors).”
 
@@ -27,7 +27,6 @@ While synthetic data can enhance dataset completeness, it must be used carefully
 - Introducing bias – Ensure synthetic records reflect realistic patterns.
 - Misrepresenting risk factors – Avoid generating overly optimistic or pessimistic data.
 - Compromising compliance – Validate that synthetic data aligns with industry regulations.
-
 
 # Task 1 - EDA & Risk Profiling
 - Conduct exploratory data analysis (EDA) using GenAI.
