@@ -19,3 +19,6 @@
 - Recent Credit Activity – A sudden increase in new credit accounts or loan applications may signal financial instability.
 - Employment and Income Stability – Frequent job changes or inconsistent income can contribute to a higher risk of missed payments.
 - Demographic Trends – While AI models must avoid bias, certain patterns (e.g., younger customers with limited credit history) may require additional analysis.
+
+## Task 4 - 
+
