@@ -11,7 +11,7 @@
 3) Business Report and Data Storytelling for Collections Strategy
 4) Implementing an AI-driven Collections Strategy
 
-## Key risk factors for delinquency
+## Key Risk Factors for Delinquency:
 - Credit Score
 - Payment history – Customers with a history of late or missed payments are more likely to default.
 - Credit Utilization Rate – High usage of available credit can indicate financial stress and potential repayment issues.
@@ -19,6 +19,3 @@
 - Recent Credit Activity – A sudden increase in new credit accounts or loan applications may signal financial instability.
 - Employment and Income Stability – Frequent job changes or inconsistent income can contribute to a higher risk of missed payments.
 - Demographic Trends – While AI models must avoid bias, certain patterns (e.g., younger customers with limited credit history) may require additional analysis.
-
-## Task 4 - 
-
