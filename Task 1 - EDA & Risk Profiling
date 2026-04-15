@@ -15,6 +15,7 @@ EDA consists of four main steps, which can be enhanced with GenAI tools:
 
 ## Outcome:
 - Key variables: Age, Income, Credit Score, Credit Utilization, Missed Payments, Debt-to-Income Ratio.
+- Target variable is imbalanced.
 - Imputation using median values for numerical data.
 - Strong correlation between high credit utilization (>50%) and delinquency.
 - Customers with 3+ missed payments in the past 6 months have a higher delinquency rate.
