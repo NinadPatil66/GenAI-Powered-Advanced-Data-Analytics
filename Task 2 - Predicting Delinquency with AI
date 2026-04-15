@@ -2,14 +2,6 @@
 - Use GenAI tools to generate model logic for predicting customer delinquency.
 - Choose and justify the best predictive approach. Common techniques for credit risk modeling (e.g., decision trees, logistic regression, neural networks). 
 - Evaluating model performance and ethical considerations (bias, explainability, fairness).
-- How to utilize GenAI tools like ChatGPT or Google Gemini to generate model code and refine predictions.
-
-Predictive Modeling - Predictive modeling is the process of using historical data to forecast future outcomes. GenAI tools can assist analysts in building, testing, and refining models with less manual coding.
-
-GenAI can help to:
-- Suggest appropriate modeling techniques based on dataset characteristics.
-- Draft a description of model logic, or even sample code.
-- Assist in interpreting results and refining model performance.
 
 ## Steps in predictive modeling:
 1) Selecting the right model
@@ -32,11 +24,9 @@ Rebalancing the dataset – If the dataset is highly skewed (e.g., 95% non-delin
 Trying different models – Some algorithms work better with certain data structures. If logistic regression is underperforming, a decision tree may provide better results.
 Hyperparameter tuning – Fine-tuning model parameters, such as adjusting the threshold for delinquency classification, can improve precision and recall scores.
 
-Prompt Example:
-1) "Based on this dataset, which predictive modeling techniques are best suited for identifying customers likely to miss payments? Explain why."
-2) "Generate a decision tree model to predict delinquency risk based on income, credit utilization, and missed payments. Explain how the model determines risk categories."
-3) "Generate a logistic regression model framework using this dataset to predict customer delinquency. Provide an explanation of each step, ensuring outputs are reviewed and refined for accuracy and fairness."
-4) "Evaluate the performance of this predictive model using precision and recall. Identify any biases in the predictions."
-5) "Create a basic neural network model for predicting delinquency risk. Compare its strengths and weaknesses against decision trees and logistic regression."
-6) "Explain how logistic regression can be used to predict credit card delinquency. Generate a simple model using income, debt-to-income ratio, and payment history."
-7) "Evaluate the performance of my credit risk model using precision, recall, and F1 score. Suggest improvements if needed."
+## Outcome:
+1) ML Algorithms Used: Logistic Regression, Decision Tress/Random Forest/XGBoost, Neural Network along with SHAP
+2) Shortlisted: XGBoost with SHAP. It provides high performance and excels at capturing complex, non-linear patterns in noisy tabular data. It can prioritize high recall through specialized class weighting which aligns with the business need to minimize capital loss from defaults, 
+while the integration of SHAP values provides the "explainability" required for regulatory transparency and fair lending audits.
+3) Evaluation Metrics - Accuracy, Precision, Recall, F1 score, and Area Under the Precision, Recall Curve (AUCPRC). AUPRC ensures that the 16% class imbalance is effectively managed, ensuring high-risk accounts are captured without excessive false alarms.
+4) Ethical Considerations: Avoid proxy bias, maintaining model transparency and fairness, and clearly communicating how model outputs influence decisions. 
