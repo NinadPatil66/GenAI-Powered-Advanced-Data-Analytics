@@ -5,9 +5,9 @@
 
 ## Steps in predictive modeling:
 1) Selecting the right model
-Logistic Regression - Great for binary predictions, Easy to interpret - Shows the impact of each variable on the outcome, Works well with structured data.
-Decision Trees - Transparency (Easy to explain to stakeholders), Works with both numerical and categorical data, Shows which customer attributes are most predictive of delinquency.
-Neural Networks - Uncover deep patterns in customer financial behavior, More accurate on large datasets than simpler models
+Logistic Regression - If you need a probability-based approach that is easy to interpret. Great for binary predictions. Easy to interpret - Shows the impact of each variable on the outcome. Works well with structured data. 
+Decision Trees - Transparency (Easy to explain to stakeholders), Clear risk segmentation, Works with both numerical and categorical data, Shows which customer attributes are most predictive of delinquency. 
+Neural Networks - Uncover deep patterns in customer financial behavior, More accurate on large datasets than simpler models. It comes at the cost explainability.
 
 2) Generating model code
    
