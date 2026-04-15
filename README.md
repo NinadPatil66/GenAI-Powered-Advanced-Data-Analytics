@@ -1,5 +1,8 @@
 # Project Title - GenAI-Powered-Advanced-Data-Analytics:
 
+## Description:
+Develop an AI-powered strategy for predicting and reducing customer credit delinquency in financial services. Build a AI-powered autonomous debt management system.
+
 ## Goal:
 - Reduce credit card delinquency rate by performing advanced data analytics & building AI/ML models using GenAI
 - Develop a recommendation framework to help the Head of Collections at Geldium finance determine the best intervention strategies for at-risk customers.
